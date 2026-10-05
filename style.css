@@ -1,0 +1,198 @@
+.nav {
+    background-color: red;
+    width: 18%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.right {
+    width: 73%;
+    margin-left: 25%;
+}
+
+.nav,
+.right {
+    display: inline-block;
+}
+
+.comp-links a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.comp-links a:hover {
+    color: black;
+    background-color: white;
+    width: 90%;
+    padding: 8px;
+}
+
+.comp-links {
+    margin: 100px 0 0 20px;
+    font-size: 25px;
+}
+
+.comp-name p {
+    color: white;
+    font-size: 30px;
+    margin: 100px 0 0 30px;
+}
+
+.showcase h2 {
+    font-size: 70px;
+    margin: 100px 0 17px 0;
+}
+
+.showcase h3 {
+    font-size: 50px;
+    margin: 0 0 0 0;
+    color: red;
+}
+
+.red-line {
+    width: 70px;
+    height: 10px;
+    background-color: red;
+    border-radius: 10px;
+    margin: 20px 0 17px 0;
+}
+
+.red-line2 {
+    width: 70px;
+    height: 10px;
+    background-color: red;
+    border-radius: 10px;
+    margin: 20px 0 17px;
+}
+
+.pho-show {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 0 0 0;
+}
+
+.pho-show img {
+    width: 520px;
+    margin-bottom: 20px;
+
+}
+
+.services h3 {
+    font-size: 50px;
+    margin: 100px 0 0 0;
+    color: red;
+}
+
+.services p {
+    font-size: 20px;
+    margin: 10px 0 20px 0;
+}
+
+.designers h3 {
+    font-size: 50px;
+    margin: 100px 0 0;
+    color: red;
+}
+
+.team {
+    font-size: 20px;
+    margin: 10px 0 20px 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.card1 {
+    width: 350px;
+    background-color: #ebe7e7;
+}
+
+
+.cards img {
+    width: 100%;
+
+}
+
+.card1 h4 {
+    font-size: 30px;
+}
+
+.each2 {
+    background-color: ;
+    width: 50%;
+
+}
+.each{
+    
+    width: 50%;
+    margin-right: 20px;
+}
+
+.types {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+
+}
+.each,.each2 h5{
+    text-align: center;
+}
+.each p{
+    text-align: center;
+    background-color: #ebe7e7;
+    margin: 0;
+    padding: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    
+    
+}
+.each2 p{
+    text-align: center;
+    background-color: #ebe7e7;
+    margin: 0;
+    padding: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+.each h5{
+    background-color: rgb(65, 61, 61);
+    padding: 35px;
+    margin: 0 0 0 0;
+    font-size: 25px;
+    color: white;
+}
+.each2 h5{
+    background-color: red;
+    padding: 35px;
+    margin: 0;
+    font-size: 25px;
+    color: white;
+}
+.down{
+    font-size: 25px;
+    position: relative;
+}
+.down::after{
+    content:"" ;
+    position: absolute;
+    width: 70px;
+    height: 10px;
+    background-color: red;
+    border-radius: 10px;
+    top: 60px;
+   
+}
